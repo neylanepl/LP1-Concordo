@@ -1,0 +1,50 @@
+create-user isaac11@imd.ufrn.br senha12345 Isaac Fernandes
+create-user isaac2222222@imd.ufrn.br senha12345 Mel Maia
+create-user isaac2222222@imd.ufrn.br senha12345 Mel Maia
+login isaac11@imd.ufrn.br senha12345
+login mel22@imd.ufrn.br senha12345
+create-server 0 disciplina_lp1
+create-server 0 minha-casa
+create-server 0 minha-casa2
+create-server 0 RPG-galera
+create-server 0 Bate-papo-uol
+set-server-desc 0 disciplina_lp1 “Este servidor serve como minha casa, sempre estarei nele"
+set-server-desc 0 jesus “Este servidor serve como minha casa, sempre estarei nele"
+set-server-desc 1 jesus “Este servidor serve como minha casa, sempre estarei nele"
+login isaac2222222@imd.ufrn.br senha12345
+set-server-desc 1 disciplina_lp1 “Este servidor serve como minha casa, sempre estarei nele"
+set-server-invite-code 0 disciplina_lp1 4567
+set-server-invite-code 0 minha_casa
+set-server-invite-code 0 minha-casa
+set-server-invite-code 1 disciplina_lp1 5555
+set-server-invite-code 0 nao_existe_server 5555
+enter-server 0 disciplina_lp1
+create-channel 0 casa-de-mae-joana
+create-channel 0 canal-do-medina
+create-channel 0 casa-de-mae-joana
+leave-channel 0
+enter-channel 0 casa-de-mae-joana
+send-message 0 Oi pessoal querem TC?
+send-message 0 Quero jogar buraco
+send-message 0 Estou sozinho cuennnnnnnn :( :( 
+list-messages 0
+enter-channel 0 casa-gabriel-medina
+leave-channel 0
+list-channels 0
+enter-server 1 disciplina_lp1 4567
+enter-server 1 minha-casa
+enter-server 1 disciplina_lp1 7878
+enter-server 1 disciplina_lp1
+list-participants 0
+leave-server 1 disciplina_lp1
+list-participants 0
+leave-server 1 minha-casa
+list-servers 0
+remove-server 1 disciplina_lp1
+remove-server 0 nao_existe
+remove-server 0 disciplina_lp1
+list-servers 0
+disconnect 0
+disconnect 1
+disconnect 0
+quit
